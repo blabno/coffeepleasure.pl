@@ -1,0 +1,18 @@
+{
+  "name": "coffeepleasure",
+  "version": "0.0.1",
+  "authors": [
+    "Bernard Labno <bernard.labno@itcrowd.pl>"
+  ],
+  "dependencies": {
+    "bootstrap": "latest"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".bowerrc",
+    ".gitignore",
+    ".gitattributes"
+  ]
+}

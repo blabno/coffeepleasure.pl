@@ -1,0 +1,88 @@
+body {
+    background: url("bg.png");
+    color: #2a1e12;
+}
+
+.content {
+    background: #fbce97;
+    padding: 0 4em 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 5px solid #2a1e12;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+}
+
+.cup {
+    position: fixed;
+    z-index: -1;
+    top: 10em;
+    left: 5em;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    background-color: #59beb8;
+    color: #fff;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border-color: #2a1e12;
+}
+
+.table-bordered {
+    border-color: #2a1e12;
+}
+
+a {
+    color: #59beb8;
+}
+
+.tab-pane {
+    padding-top: 2em;
+}
+
+.price {
+    margin-top: 4em;
+}
+
+.coffe-cost td:nth-child(2) {
+    text-align: center;
+}
+
+.coffe-cost td:nth-child(3) {
+    text-align: right;
+}
+
+.constant-cost td:nth-child(2) {
+    text-align: right;
+}
+
+.income tbody td {
+    text-align: right;
+}
+
+.income tbody td:nth-child(1) {
+    text-align: left;
+}
+
+.income tfoot td:nth-child(2) {
+    text-align: right;
+}
+
+.balance td:nth-child(2) {
+    text-align: right;
+}
+
+.table tfoot td {
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .cup {
+        position: static;
+        display: block;
+        margin: 4em auto;
+    }
+
+}
