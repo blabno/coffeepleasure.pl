@@ -97,3 +97,7 @@ a {
 .photo + .photo {
     margin-top: 1em;
 }
+
+h3 small {
+    color: #000;
+}
