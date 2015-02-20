@@ -101,3 +101,11 @@ a {
 h3 small {
     color: #000;
 }
+
+.offer {
+    list-style: none;
+}
+
+.offer .glyphicon {
+    font-size: 20px;
+}
